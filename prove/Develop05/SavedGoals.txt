@@ -1,0 +1,5 @@
+965
+SimpleGoal|Go for a walk|Walk for 15 minutes outside|15|True
+EternalGoal|Wake up on time|Wake up at 6:30am|30|False
+ChecklistGoal|Do pushups|A complete set of 10 pushups|10|3|3|300|True
+ChecklistGoal|Complete homeowork|Complete assignments before the weekend|30|3|3|500|True
