@@ -11,11 +11,21 @@ public abstract class Activity
         _lengthMinutes = length;
     }
 
-    public abstract string GetSummery();
+    public string GetDate()
+    {
+        return _date;
+    }
 
-    public abstract int GetDistance();
+    public double GetLength()
+    {
+        return _lengthMinutes;
+    }
 
-    public abstract int GetSpeed();
+    public abstract string GetSummary();
 
-    public abstract int GetPace();
+    public abstract double GetDistance();
+
+    public abstract double GetSpeed();
+
+    public abstract double GetPace();
 }
