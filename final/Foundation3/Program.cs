@@ -9,9 +9,7 @@ class Program
         Address addr3 = new Address("900 Beach Blvd", "San Diego", "CA", "USA");
 
         Event baseEvent1 = new Event("Tech Conference", "A conference about new software tools.", "Aug 15", "10:00 AM", addr1);
-
         Event baseEvent2 = new Event("Wedding Reception", "Celebration with family and friends.", "Sep 3", "6:00 PM", addr2);
-
         Event baseEvent3 = new Event("Summer Festival", "Outdoor fun with food and games.", "July 28", "12:00 PM", addr3);
 
         Lecture lecture = new Lecture("Tech Conference", "A conference about new software tools.", "Aug 15", "10:00 AM", addr1, "Dr. Smith", 150);

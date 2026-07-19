@@ -141,5 +141,4 @@ abstract class BaseGoal
     public abstract void CreateGoal();
     public abstract int RecordEvent();
     public abstract string GetSaveString();
-
 }
