@@ -1,6 +1,6 @@
 using System;
 
-class Address
+public class Address
 {
     private string _street;
     private string _city;
@@ -13,5 +13,10 @@ class Address
         _city = city;
         _state = stateProvinance;
         _country = country;
+    }
+
+    public string GetAddress()
+    {
+        return $"{_street} {_city}, {_state} {_country}";
     }
 }
